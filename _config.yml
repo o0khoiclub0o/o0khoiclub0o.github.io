@@ -23,7 +23,9 @@ defaults:
     values:
       permalink: /:year/:month/:day/:title
 
-  # Profile links, leave blank to ignore
+google_analytics_key: UA-93474352-1
+
+# Profile links, leave blank to ignore
 social: 
   github: o0khoiclub0o
   linkedin: o0khoiclub0o
