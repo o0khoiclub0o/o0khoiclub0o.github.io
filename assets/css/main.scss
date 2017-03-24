@@ -750,3 +750,53 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $base-05;
 }
+
+/* --------------------------------
+
+Comment styles
+
+--------------------------------- */
+.comments {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .note {
+    font-size: 1rem;
+  }
+
+  .required {
+      color: #007acc;
+  }
+  .form-group {
+    margin: 20px 0;
+
+    label {
+      display: block;
+      margin: 10px 0;
+      text-transform: uppercase;
+    }
+    textarea,
+    input[type]:not([type=hidden]) {
+      display: block;
+      width: 100%;
+      padding: 0 0.5rem;
+      line-height: 2rem;
+      font-size: 1.125rem;
+    }
+    button[type=submit] {
+      border: 0;
+      // -webkit-appearance: button;
+      cursor: pointer;
+
+      display: block;
+      padding: 0.5rem;
+      font-size: 100%;
+      background-color: #ee6657;
+      color: #fff;
+
+      &:hover, &:active, &:focus {
+        background-color: #fa8375;
+      }
+    }
+  }
+}
